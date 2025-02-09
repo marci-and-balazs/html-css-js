@@ -7,4 +7,88 @@
 html,
 body {
   height: 100%;
+  font-family: sans-serif;
+  color: white;
+}
+
+body > header {
+  background-color: hsl(0, 0%, 0%);
+
+  padding-block: 42px;
+}
+
+body > header > h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  max-width: 50%;
+}
+
+p {
+  font-size: 16;
+  max-width: 50%;
+  line-height: 1.5;
+}
+
+.part1 {
+  background-color: rgb(138, 90, 42);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.part2 {
+  background-color: rgb(41, 105, 73);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.part3 {
+  background-color: rgb(138, 90, 42);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.part4 {
+  background-color: rgb(41, 105, 73);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.part5 {
+  background-color: rgb(138, 90, 42);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.part6 {
+  background-color: rgb(41, 105, 73);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-block: 50px;
+}
+
+.part6 p {
+  text-align: center;
+}
+
+footer {
+  background: black;
+  padding-block: 16px;
+  text-align: center;
+  font-size: 12px;
 }
