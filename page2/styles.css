@@ -3,8 +3,76 @@
   margin: 0;
   padding: 0;
 }
-
 html,
 body {
   height: 100%;
+}
+body > header {
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+section > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+p {
+  max-width: 50%;
+}
+h1 {
+  max-width: 50%;
+}
+body {
+  color: white;
+}
+.section-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.section-1 {
+  background-color: rgb(94, 52, 38);
+}
+.section-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.section-2 {
+  background-color: rgb(92, 160, 92);
+}
+.section-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.section-3 {
+  background-color: rgb(94, 52, 38);
+}
+.section-4 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.section-4 {
+  background-color: rgb(92, 160, 92);
+}
+.section-5 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.section-5 {
+  background-color: rgb(94, 52, 38);
+}
+.section-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.section-6 {
+  background-color: rgb(92, 160, 92);
+}
+body > footer {
+  background-color: hsl(0, 0%, 0%);
+  color: white;
 }
