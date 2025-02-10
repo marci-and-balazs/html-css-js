@@ -8,3 +8,71 @@ html,
 body {
   height: 100%;
 }
+
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 60px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+main > section:nth-child(odd) {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: rgb(83, 57, 31);
+}
+
+main > section:nth-child(even) {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: rgb(30, 94, 60);
+}
+
+main > section > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+main > section > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+main > section:last-child {
+  display: grid;
+  padding-block: 120px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+main > section:last-child > div {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  max-width: 50%;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  max-width: 50%;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
